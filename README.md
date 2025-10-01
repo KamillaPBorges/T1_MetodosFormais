@@ -68,14 +68,7 @@ T1_MetodosFormais/Trabalho1.thy
 
 > Observação: se algum lemma depender de lemas auxiliares (ex.: associatividade de `cat`), mantenha-os em um arquivo separado (ex. `LemasLista.thy`) e importe onde necessário.
 
-## ✅ Checklist de entrega
 
-- [ ] Definições `cat` e `reverso` corretas
-- [ ] Provas: associatividade de `cat`
-- [ ] Provas: `reverso (reverso xs) = xs`
-- [ ] Comentários/explicações no relatório (breve justificativa de cada passo crítico)
-- [ ] Arquivo `ROOT` (se usar `isabelle build`)
-- [ ] `README.md` com instruções de execução (este arquivo)
 
 
 
@@ -85,7 +78,7 @@ T1_MetodosFormais/Trabalho1.thy
 - Divida metas grandes em lemas menores (ex.: lemas sobre `cat` antes de `reverso`)
 - Prefira `simp`, `auto` e regras de reescrita nomeadas (`[simp]`) para automatizar passos repetitivos
 
-## 👥 Autores
+## 👥 Autora
 
 - Kamilla Borges  
 
